@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_case_study_pages",
+  "info": {
+    "displayName": "Pages",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PageHeader": {
+      "type": "string",
+      "required": false
+    },
+    "PageQuote": {
+      "type": "string"
+    },
+    "PageQuoteSpeaker": {
+      "type": "string"
+    },
+    "Content": {
+      "displayName": "Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.content",
+      "required": true
+    },
+    "PageImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

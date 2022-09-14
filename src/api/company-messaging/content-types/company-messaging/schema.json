@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_messaging_group",
+  "info": {
+    "singularName": "company-messaging",
+    "pluralName": "company-messaging-group",
+    "displayName": "Company Messaging",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string",
+      "required": true
+    },
+    "IdleScreenIntro": {
+      "type": "string",
+      "required": true
+    },
+    "IdleScreenActionText": {
+      "type": "string",
+      "default": "Touch Screen to begin",
+      "required": true
+    },
+    "QuizIntro1": {
+      "type": "text",
+      "required": true
+    },
+    "QuizIntro2": {
+      "type": "text",
+      "required": true
+    },
+    "Recap": {
+      "displayName": "Recap",
+      "type": "component",
+      "repeatable": true,
+      "component": "recap-list.recap",
+      "max": 3,
+      "required": true,
+      "min": 1
+    },
+    "Questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questions.questions"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "objectives",
+  "info": {
+    "singularName": "objective",
+    "pluralName": "objectives",
+    "displayName": "Objectives",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ObjectiveName": {
+      "type": "string",
+      "required": true
+    },
+    "ObjectiveThumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_template_templates",
+  "info": {
+    "displayName": "Template",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TemplatePage": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_messaging_questions_questions",
+  "info": {
+    "displayName": "Questions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "QuestionText": {
+      "type": "string",
+      "required": true
+    },
+    "Answers": {
+      "displayName": "Answers",
+      "type": "component",
+      "repeatable": false,
+      "component": "answers-list.answers",
+      "required": true
+    },
+    "ResponseMessage": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

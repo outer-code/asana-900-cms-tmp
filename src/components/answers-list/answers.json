@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_answers_list_answers",
+  "info": {
+    "displayName": "Answers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Correct": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "QuestionText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

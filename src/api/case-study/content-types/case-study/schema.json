@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "Case Studies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ShortcutName": {
+      "type": "string",
+      "required": true
+    },
+    "CasestudyThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isHidden": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "CaseStudyURL": {
+      "type": "string",
+      "required": true
+    },
+    "Industries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::industry.industry"
+    },
+    "Objectives": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::objective.objective"
+    },
+    "CompanySizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::company-size.company-size"
+    },
+    "ColorScheme": {
+      "type": "integer"
+    },
+    "Pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.pages"
+    },
+    "LogoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CasestudyVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "InternalID": {
+      "type": "string",
+      "regex": "\"^[a-zA-Z0-9]*$\"",
+      "required": true
+    }
+  }
+}

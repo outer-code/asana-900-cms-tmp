@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "global_messagings",
+  "info": {
+    "singularName": "global-messaging",
+    "pluralName": "global-messagings",
+    "displayName": "Global Messaging",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ObjectiveTitleTriviaSkip": {
+      "type": "string",
+      "required": true
+    },
+    "ObjectiveTitle": {
+      "type": "string",
+      "required": true
+    },
+    "IdleScreenActionText": {
+      "type": "string",
+      "required": true
+    },
+    "IdleVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "IntroVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    }
+  }
+}

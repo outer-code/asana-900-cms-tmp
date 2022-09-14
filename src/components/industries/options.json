@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_categories_options",
+  "info": {
+    "displayName": "Options",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OptionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "OptionThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

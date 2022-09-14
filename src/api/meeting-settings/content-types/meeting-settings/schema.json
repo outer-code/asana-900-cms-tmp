@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meeting_settings_group",
+  "info": {
+    "singularName": "meeting-settings",
+    "pluralName": "meeting-settings-group",
+    "displayName": "Meeting Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ShowTrivia": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "CustomerDataset": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::company-messaging.company-messaging"
+    }
+  }
+}

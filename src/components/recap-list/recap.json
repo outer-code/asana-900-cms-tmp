@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_recap_list_recaps",
+  "info": {
+    "displayName": "Recap"
+  },
+  "options": {},
+  "attributes": {
+    "RecapMessage": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

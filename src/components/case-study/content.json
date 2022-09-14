@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_case_study_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "marker"
+  },
+  "options": {},
+  "attributes": {
+    "ContentHeader": {
+      "type": "string"
+    },
+    "ContentBullets": {
+      "type": "text"
+    }
+  }
+}

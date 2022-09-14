@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_case_study_casestudy_categories",
+  "info": {
+    "displayName": "CasestudyCategories",
+    "icon": "tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ValidOptionsForCategory": {
+      "type": "string"
+    }
+  }
+}
